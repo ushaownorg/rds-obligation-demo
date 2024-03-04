@@ -35,6 +35,7 @@ resource "aws_db_instance" "db" {
   vpc_security_group_ids  = [var.db-sg-id]
   storage_encrypted       = true
   db_name                 = "postgres"
+  auto_minor_version_upgrade = true
   backup_retention_period = 7
   backup_window           = "20:00-21:00"
   maintenance_window      = "Sat:23:00-Sun:03:00"
