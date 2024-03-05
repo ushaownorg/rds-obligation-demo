@@ -41,7 +41,7 @@ resource "aws_db_instance" "db" {
   maintenance_window      = "Sat:23:00-Sun:03:00"
   monitoring_interval = var.environment == "prod" || var.environment == "production" ? 60 : 0
   performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
-  # deletion_protection     = var.environment == "prod" || var.environment == "production" ? true : false
+  deletion_protection     = var.environment == "prod" || var.environment == "production" ? true : false
   multi_az = true
   publicly_accessible    = false
   skip_final_snapshot = var.environment == "prod" || var.environment == "production" ? false : true
