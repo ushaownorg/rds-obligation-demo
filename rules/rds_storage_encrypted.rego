@@ -3,8 +3,8 @@ package rules.rds_storage_encrypted
 __rego__metadoc__ := {
   "custom": {
     "controls": {
-      "CIS-AWS_v1.4.0": [
-        "CIS-AWS_v1.4.0_2.3.1"
+      "9f20c948-2648-4aaf-8e32-25011dafde32": [
+        "9f20c948-2648-4aaf-8e32-25011dafde32_3.1"
       ]
     },
     "severity": "High"

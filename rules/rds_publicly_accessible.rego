@@ -1,7 +1,12 @@
 package rules.rds_publicly_accessible
 
 __rego__metadoc__ := {
-  "custom": {
+   "custom": {
+    "controls": {
+      "9f20c948-2648-4aaf-8e32-25011dafde32": [
+        "9f20c948-2648-4aaf-8e32-25011dafde32_3.2"
+      ]
+    },
     "severity": "High"
   },
   "description": "RDS instance 'Publicly Accessible' should not be enabled. Publicly accessible RDS instances allow any AWS user or anonymous user access to the data in the database. RDS instances should not be publicly accessible.",
