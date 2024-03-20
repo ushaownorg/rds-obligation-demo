@@ -1,4 +1,4 @@
-package rules.rds_input.auto_minor_version_upgrade
+package rules.rds_input.rds_auto_minor_version_upgrade
 
 __rego__metadoc__ := {
   "custom": {
