@@ -27,7 +27,7 @@ resource "aws_db_instance" "db" {
   identifier              = "${local.extract_resource_name}-db"
   instance_class          = "db.t3.micro"
   allocated_storage       = 20
-  max_allocated_storage   = 70
+  max_allocated_storage   = 40
   engine                  = "postgres"
   username                = "postgres"
   password                = random_password.password_postgres.result
@@ -35,7 +35,7 @@ resource "aws_db_instance" "db" {
   vpc_security_group_ids  = [var.db-sg-id]
   storage_encrypted       = true
   db_name                 = "postgres"
-  auto_minor_version_upgrade = false
+  auto_minor_version_upgrade = true
   backup_retention_period = 7
   backup_window           = "20:00-21:00"
   maintenance_window      = "Sat:23:00-Sun:03:00"

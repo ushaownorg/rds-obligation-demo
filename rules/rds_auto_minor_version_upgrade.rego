@@ -1,16 +1,16 @@
-package rules.rds_input.auto_minor_version_upgrade
+package rules.rds_auto_minor_version_upgrade
 
 __rego__metadoc__ := {
-  "custom": {
+   "custom": {
     "controls": {
       "9f20c948-2648-4aaf-8e32-25011dafde32": [
         "9f20c948-2648-4aaf-8e32-25011dafde32_3.2"
       ]
     },
-    "severity": "Medium"
+    "severity": "High"
   },
-  "description": "Ensure Auto Minor Version Upgrade feature is Enabled for RDS Instances BAI10.05.04",
-  "id": "BAI10.05.04",
+  "description": "Ensure Auto Minor Version Upgrade feature is Enabled for RDS Instances ",
+  "id": "FG_R00288",
   "title": "Auto Minor Version Upgrade feature Enabled for RDS Instances"
 }
 
