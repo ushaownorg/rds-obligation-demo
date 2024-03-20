@@ -33,18 +33,18 @@ resource "aws_db_instance" "db" {
   password                = random_password.password_postgres.result
   db_subnet_group_name    = aws_db_subnet_group.db-subnet-group.name
   vpc_security_group_ids  = [var.db-sg-id]
-  storage_encrypted       = true
+#  storage_encrypted       = true
   db_name                 = "postgres"
   auto_minor_version_upgrade = true
-  backup_retention_period = 7
+#  backup_retention_period = 7
   backup_window           = "20:00-21:00"
   maintenance_window      = "Sat:23:00-Sun:03:00"
   monitoring_interval = var.environment == "prod" || var.environment == "production" ? 60 : 0
-#  performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
+  performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
 #  deletion_protection     = var.environment == "prod" || var.environment == "production" ? true : false
 #  multi_az = true
 #  publicly_accessible    = false
-#  skip_final_snapshot = var.environment == "prod" || var.environment == "production" ? false : true
+  skip_final_snapshot = var.environment == "prod" || var.environment == "production" ? false : true
 
   tags = merge(
     {
