@@ -28,7 +28,7 @@ resource "aws_db_instance" "db" {
   instance_class          = "db.t3.micro"
   allocated_storage       = 20
   max_allocated_storage   = 40
-  engine                  = "postgres"
+#  engine                  = "postgres"
   username                = "postgres"
   password                = random_password.password_postgres.result
   db_subnet_group_name    = aws_db_subnet_group.db-subnet-group.name
