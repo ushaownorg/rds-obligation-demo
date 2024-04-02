@@ -22,5 +22,5 @@ resource_type = "aws_db_instance"
 default allow = false
 
 allow {
-  input.auto_minor_version_upgrade == true
+  input.auto_minor_version_upgrade == false
 }
