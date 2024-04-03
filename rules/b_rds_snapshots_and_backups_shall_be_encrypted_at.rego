@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Usha Testing original - Version: 1.0",
+	"description": "Document: Usha Testing original - Version: 2.0",
 	"id": "B",
 	"title": "RDS snapshots and backups shall be encrypted at rest.",
 }

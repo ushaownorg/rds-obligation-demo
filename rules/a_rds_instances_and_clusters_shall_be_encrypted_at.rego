@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Usha Testing original - Version: 1.0",
+	"description": "Document: Usha Testing original - Version: 2.0",
 	"id": "A",
 	"title": "RDS instances and clusters shall be encrypted at rest using JPMC standard encryption algorithms.",
 }
@@ -21,5 +21,5 @@ resource_type = "aws_db_instance"
 
 default allow = false
 allow {
-  input.storage_encrypted == true
+	input.storage_encrypted == true
 }

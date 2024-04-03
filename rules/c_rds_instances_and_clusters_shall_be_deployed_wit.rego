@@ -9,7 +9,7 @@ __rego__metadoc__ := {
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Usha Testing original - Version: 1.0",
+	"description": "Document: Usha Testing original - Version: 2.0",
 	"id": "C",
 	"title": "RDS instances and clusters shall be deployed within a Virtual Private Cloud (VPC) and secured using appropriate security groups and network access control lists (NACLs).",
 }
