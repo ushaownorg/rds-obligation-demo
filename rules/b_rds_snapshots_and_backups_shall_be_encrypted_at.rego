@@ -1,4 +1,4 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at_rest
+package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
 
 __rego__metadoc__ := {
 	"custom": {
