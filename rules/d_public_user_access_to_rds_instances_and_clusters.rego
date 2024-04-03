@@ -22,3 +22,4 @@ resource_type = "aws_db_instance"
 default allow = false
 allow {
 	input.publicly_accessible == false
+}
