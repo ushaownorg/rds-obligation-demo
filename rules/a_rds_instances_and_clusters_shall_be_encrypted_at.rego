@@ -3,8 +3,8 @@ package rules.a_rds_instances_and_clusters_shall_be_encrypted_at
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHORIGINAL": [
-				"AWSRDSBENCHORIGINAL_A"
+			"AWSRDSBENCHDELETE": [
+				"AWSRDSBENCHDELETE_A"
 			]
 		},
 		"severity": "Medium"
