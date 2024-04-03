@@ -1,15 +1,15 @@
-package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at
+package rules.b_rds_snapshots_and_backups_shall_be_encrypted_at_rest
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH3": [
-				"AWSRDSBENCH3_B"
+			"AWSRDSBENCHORIGINAL": [
+				"AWSRDSBENCHORIGINAL_B"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Technology Engineering - AWS RDS - Best Practice - v1 - Version: 3.0",
+	"description": "Document: Usha Testing original - Version: 1.0",
 	"id": "B",
 	"title": "RDS snapshots and backups shall be encrypted at rest.",
 }
