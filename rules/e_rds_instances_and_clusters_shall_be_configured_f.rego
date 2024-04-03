@@ -3,8 +3,8 @@ package rules.e_rds_instances_and_clusters_shall_be_configured_f
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHDELETE": [
-				"AWSRDSBENCHDELETE_E"
+			"AWSRDSBENCHUPDATE": [
+				"AWSRDSBENCHUPDATE_E"
 			]
 		},
 		"severity": "Medium"

@@ -3,8 +3,8 @@ package rules.f_automatic_backups_shall_be_enabled_for_rds_insta
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHDELETE": [
-				"AWSRDSBENCHDELETE_F"
+			"AWSRDSBENCHUPDATE": [
+				"AWSRDSBENCHUPDATE_F"
 			]
 		},
 		"severity": "Medium"

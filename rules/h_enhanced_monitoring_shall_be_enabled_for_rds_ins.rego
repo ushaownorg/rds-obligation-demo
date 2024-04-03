@@ -3,8 +3,8 @@ package rules.h_enhanced_monitoring_shall_be_enabled_for_rds_ins
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHDELETE": [
-				"AWSRDSBENCHDELETE_H"
+			"AWSRDSBENCHUPDATE": [
+				"AWSRDSBENCHUPDATE_H"
 			]
 		},
 		"severity": "Medium"

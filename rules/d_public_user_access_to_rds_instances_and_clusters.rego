@@ -3,8 +3,8 @@ package rules.d_public_user_access_to_rds_instances_and_clusters
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHDELETE": [
-				"AWSRDSBENCHDELETE_D"
+			"AWSRDSBENCHUPDATE": [
+				"AWSRDSBENCHUPDATE_D"
 			]
 		},
 		"severity": "Medium"
@@ -21,5 +21,5 @@ resource_type = "aws_db_instance"
 
 default allow = false
 allow {
-	input.publicly_accessible == false
+	input.publicly_accessible == true
 }
