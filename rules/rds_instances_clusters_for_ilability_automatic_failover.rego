@@ -1,15 +1,15 @@
-package rules.e_rds_instances_and_clusters_shall_be_configured_f
+package rules.rds_instances_clusters_for_ilability_automatic_failover
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHUPDATE": [
-				"AWSRDSBENCHUPDATE_E"
+			"AWSRDSBENCH4400": [
+				"AWSRDSBENCH4400_E"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Usha Testing original - Version: 2.0",
+	"description": "Document: Tech Engg - AWS RDS - Best Practice Vishal Biraris - Version: 4.0",
 	"id": "E",
 	"title": "RDS instances and clusters shall be configured for multiple Availability Zones (Multi-AZ) to ensure high availability and automatic failover.",
 }
@@ -21,5 +21,6 @@ resource_type = "aws_db_instance"
 
 default allow = false
 allow {
-	input.multi_az == true
+  input.multi_az == true
 }
+

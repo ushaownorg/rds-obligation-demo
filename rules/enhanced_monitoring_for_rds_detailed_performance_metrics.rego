@@ -1,20 +1,21 @@
-package rules.h_enhanced_monitoring_shall_be_enabled_for_rds_ins
+package rules.enhanced_monitoring_for_rds_detailed_performance_metrics
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCHUPDATE": [
-				"AWSRDSBENCHUPDATE_H"
+			"AWSRDSBENCH4400": [
+				"AWSRDSBENCH4400_H"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: Usha Testing original - Version: 2.0",
+	"description": "Document: Tech Engg - AWS RDS - Best Practice Vishal Biraris - Version: 4.0",
 	"id": "H",
 	"title": "Enhanced monitoring shall be enabled for RDS instances to collect detailed performance metrics.",
 }
 
 # Please write your OPA rule here
+
 input_type = "tf"
 
 resource_type = "aws_db_instance"
@@ -22,5 +23,5 @@ resource_type = "aws_db_instance"
 default allow = false
 
 allow {
-	input.monitoring_interval > 0
+  input.monitoring_interval > 0
 }
