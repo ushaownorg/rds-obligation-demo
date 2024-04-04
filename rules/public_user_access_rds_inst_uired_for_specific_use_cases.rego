@@ -15,5 +15,13 @@ __rego__metadoc__ := {
 }
 
 # Please write your OPA rule here
+input_type = "tf"
+
+resource_type = "aws_db_instance"
+
+default allow = false
+allow {
+	input.publicly_accessible == false
+}
 
 

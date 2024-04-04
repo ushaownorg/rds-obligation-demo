@@ -43,7 +43,7 @@ resource "aws_db_instance" "db" {
   performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
   deletion_protection     = var.environment == "prod" || var.environment == "production" ? true : false
   multi_az = true
-  publicly_accessible    = true
+  publicly_accessible    = false
   skip_final_snapshot = var.environment == "prod" || var.environment == "production" ? false : true
 
   tags = merge(
