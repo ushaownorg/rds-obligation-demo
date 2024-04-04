@@ -3,8 +3,8 @@ package rules.enhanced_monitoring_for_rds_detailed_performance_metrics
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_H"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_H"
 			]
 		},
 		"severity": "Medium"

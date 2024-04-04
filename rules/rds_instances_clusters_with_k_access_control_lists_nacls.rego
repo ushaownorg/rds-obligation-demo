@@ -3,8 +3,8 @@ package rules.rds_instances_clusters_with_k_access_control_lists_nacls
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_C"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_C"
 			]
 		},
 		"severity": "Medium"

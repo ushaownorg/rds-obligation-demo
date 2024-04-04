@@ -3,8 +3,8 @@ package rules.rds_snapshots_backups_rest
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_B"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_B"
 			]
 		},
 		"severity": "Medium"

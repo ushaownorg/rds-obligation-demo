@@ -3,8 +3,8 @@ package rules.rds_instances_clusters_for_ilability_automatic_failover
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_E"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_E"
 			]
 		},
 		"severity": "Medium"

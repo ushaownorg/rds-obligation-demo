@@ -3,8 +3,8 @@ package rules.rds_instances_clusters_by_a_ws_backup_an_backup_solution
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_G"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_G"
 			]
 		},
 		"severity": "Medium"

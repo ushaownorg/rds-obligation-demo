@@ -3,8 +3,8 @@ package rules.automatic_backups_for_rds_i_cies_regulatory_requirements
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_F"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_F"
 			]
 		},
 		"severity": "Medium"

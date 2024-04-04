@@ -3,8 +3,8 @@ package rules.rds_instances_clusters_jpmc_encryption_algorithms
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWSRDSBENCH4400": [
-				"AWSRDSBENCH4400_A"
+			"AWSRDSBENCH": [
+				"AWSRDSBENCH_A"
 			]
 		},
 		"severity": "Medium"
