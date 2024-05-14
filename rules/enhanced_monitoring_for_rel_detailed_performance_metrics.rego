@@ -3,8 +3,8 @@ package rules.enhanced_monitoring_for_rel_detailed_performance_metrics
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_H"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_H"
 			]
 		},
 		"severity": "Medium"

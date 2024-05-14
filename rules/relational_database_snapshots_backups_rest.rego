@@ -3,8 +3,8 @@ package rules.relational_database_snapshots_backups_rest
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_B"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_B"
 			]
 		},
 		"severity": "Medium"

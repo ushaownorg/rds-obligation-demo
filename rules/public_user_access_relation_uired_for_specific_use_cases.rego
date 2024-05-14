@@ -3,8 +3,8 @@ package rules.public_user_access_relation_uired_for_specific_use_cases
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_D"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_D"
 			]
 		},
 		"severity": "Medium"

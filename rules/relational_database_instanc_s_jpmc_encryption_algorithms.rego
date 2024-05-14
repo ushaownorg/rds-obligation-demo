@@ -3,8 +3,8 @@ package rules.relational_database_instanc_s_jpmc_encryption_algorithms
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_A"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_A"
 			]
 		},
 		"severity": "Medium"

@@ -3,8 +3,8 @@ package rules.relational_database_instanc_ws_backup_an_backup_solution
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_G"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_G"
 			]
 		},
 		"severity": "Medium"

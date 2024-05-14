@@ -3,8 +3,8 @@ package rules.deletion_protection_for_rel_dental_unauthorized_deletion
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB": [
-				"RelationalDB_I"
+			"OBLIGATIONQASMOKE": [
+				"OBLIGATIONQASMOKE_I"
 			]
 		},
 		"severity": "Medium"
