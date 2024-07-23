@@ -1,6 +1,7 @@
 package rules.only_approved_software_inst_s_may_used_network_endpoints
 
 
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {

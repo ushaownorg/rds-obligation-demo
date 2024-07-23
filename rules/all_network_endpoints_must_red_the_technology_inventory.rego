@@ -1,6 +1,7 @@
 package rules.all_network_endpoints_must_red_the_technology_inventory
 
 
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {

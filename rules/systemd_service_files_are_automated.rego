@@ -1,6 +1,8 @@
 package rules.systemd_service_files_are_automated
 
 
+	
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {

@@ -1,17 +1,19 @@
 package rules.monitoring_logging_is_manual
 
 
+	
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {
-				"ea732f37-b4d8-45c1-8741-a6e1f25b7a10": [
-					"ea732f37-b4d8-45c1-8741-a6e1f25b7a10_e1c99a2a-68ec-4b29-b2d1-30897dd71a13"
+				"2210b21d-c1a8-4f60-9172-0f6f7a5ac2d0": [
+					"2210b21d-c1a8-4f60-9172-0f6f7a5ac2d0_32863cd3-966a-403f-af36-550d21e2f899"
 				]
 			},
 			"severity": "Medium"
 		},
-		"description": "Document: testing-1615 - Version: 1.0.2",
-		"id": "e1c99a2a-68ec-4b29-b2d1-30897dd71a13",
+		"description": "Document: testing-1615 - Version: 1.0.5",
+		"id": "32863cd3-966a-403f-af36-550d21e2f899",
 		"title": "Ensure Monitoring and Logging is Enabled (Manual)",
 	}
 

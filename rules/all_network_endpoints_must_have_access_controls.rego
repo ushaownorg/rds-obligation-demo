@@ -1,6 +1,7 @@
 package rules.all_network_endpoints_must_have_access_controls
 
 
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {

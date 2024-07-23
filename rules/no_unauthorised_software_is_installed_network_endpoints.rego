@@ -1,6 +1,7 @@
 package rules.no_unauthorised_software_is_installed_network_endpoints
 
 
+	
 	__rego__metadoc__ := {
 		"custom": {
 			"controls": {
