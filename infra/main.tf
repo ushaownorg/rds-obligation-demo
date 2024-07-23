@@ -39,6 +39,7 @@ resource "aws_db_instance" "db" {
   backup_retention_period = 7
   backup_window           = "20:00-21:00"
   maintenance_window      = "Sat:23:00-Sun:03:00"
+  network_endpoint_registered = true
   monitoring_interval = var.environment == "prod" || var.environment == "production" ? 60 : 0
   performance_insights_enabled = var.environment == "prod" || var.environment == "production" ? true : false
   deletion_protection     = var.environment == "prod" || var.environment == "production" ? true : false
