@@ -17,12 +17,5 @@ package rules.only_approved_software_inst_s_may_used_network_endpoints
 	}
 
 # Please write your OPA rule here
-input_type = "tf"
 
-resource_type = "aws_db_instance"
-
-default allow = false
-allow {
-	input.network_endpoint_registered == true
-}
 

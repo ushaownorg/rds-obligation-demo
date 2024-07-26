@@ -17,12 +17,5 @@ package rules.no_unauthorised_software_is_installed_network_endpoints
 	}
 
 # Please write your OPA rule here
-input_type = "tf"
 
-resource_type = "aws_db_instance"
-
-default allow = false
-allow {
-	input.network_endpoint_registered == true
-}
 
